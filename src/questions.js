@@ -21,6 +21,14 @@ const questions = {
       name: "number",
     },
   ],
+  menu: [
+    {
+      type: "list",
+      message: "choose to build your team or finish building",
+      name: "choice",
+      choices: ["Add intern", "Add engineer", "Finish building team"],
+    },
+  ],
 };
 
 module.exports = questions
