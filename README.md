@@ -49,7 +49,3 @@ The following image shows the web application's appearance and functionality:
 
 - - -
 2022 Roman Sokol
-=======
-
-- - -
-2022 Roman Sokol
