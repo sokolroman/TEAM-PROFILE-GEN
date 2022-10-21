@@ -1,7 +1,21 @@
+# Object-Oriented Programming Challenge: Team Profile Generator
+
+
+
+## Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person.
+
+
+## User Story
+
+```
 AS A manager
 I WANT to generate a webpage that displays my team's basic info
 SO THAT I have quick access to their emails and GitHub profiles
+```
 
+## Acceptance Criteria
+
+```
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for my team members and their information
 THEN an HTML file is generated that displays a nicely formatted team roster based on user input
@@ -19,48 +33,19 @@ WHEN I select the intern option
 THEN I am prompted to enter the intern’s name, ID, email, and school, and I am taken back to the menu
 WHEN I decide to finish building my team
 THEN I exit the application, and the HTML is generated
+```
 
-The application must have these classes: Employee, Manager, Engineer, and Intern. The tests for these classes (in the _tests_ directory) must all pass.
+## Mock-Up
 
-The first class is an Employee parent class with the following properties and methods:
+The following image shows the web application's appearance and functionality:
 
-name
+<img src="Screen Shot 2022-10-10 at 18.46.35.png" alt="Alt text" title="Optional title">
 
-id
+## Instructions
+* Because this application will require the use of the Inquirer package, ensure that you install and use Inquirer version 8.2.4. To do so, use the following command in your folder: npm i inquirer@8.2.4
 
-email
+## Video Walkthrough
+[OneDrive](https://1drv.ms/v/s!AnaG2finThsyhGhYUp7QF8bWeXem?e=5C4Pom)
 
-getName()
-
-getId()
-
-getEmail()
-
-getRole() // Returns 'Employee'
-
-The other three classes will extend Employee.
-
-In addition to Employee's properties and methods, Manager will also have:
-
-officeNumber
-
-getRole() // Overridden to return 'Manager'
-
-In addition to Employee's properties and methods, Engineer will also have:
-
-github // GitHub username
-
-getGithub()
-
-getRole() // Overridden to return 'Engineer'
-
-In addition to Employee's properties and methods, Intern will also have:
-
-school
-
-getSchool()
-
-getRole() // Overridden to return 'Intern'
-
-Finally, although it’s not a requirement, you should consider adding validation to ensure that user input provided is in the proper expected format.
-# TEAM-PROFILE-GEN
+- - -
+2022 Roman Sokol

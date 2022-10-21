@@ -10,9 +10,7 @@ const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 const employees = [];
 const questions = require("./src/questions");
-
 const team = [];
-
 const renderHTML = require("./src/generateHTML");
 
 const createManager = async () => {
