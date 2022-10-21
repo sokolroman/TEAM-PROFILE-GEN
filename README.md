@@ -44,8 +44,14 @@ The following image shows the web application's appearance and functionality:
 ## Instructions
 * Because this application will require the use of the Inquirer package, ensure that you install and use Inquirer version 8.2.4. To do so, use the following command in your folder: npm i inquirer@8.2.4
 
+<<<<<<< HEAD
 ## Video Walkthrough
 [OneDrive](https://1drv.ms/v/s!AnaG2finThsyhGhYUp7QF8bWeXem?e=5C4Pom)
 
 - - -
 2022 Roman Sokol
+=======
+
+- - -
+2022 Roman Sokol
+>>>>>>> refs/remotes/origin/main
