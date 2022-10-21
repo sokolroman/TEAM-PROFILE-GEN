@@ -39,7 +39,7 @@ THEN I exit the application, and the HTML is generated
 
 The following image shows the web application's appearance and functionality:
 
-<img src="Screen Shot 2022-10-21 at 12.08.18.png" alt="Alt text" title="Optional title">
+<img src="Screen Shot 2022-10-21 at 12.28.08.png" alt="Alt text" title="Optional title">
 
 ## Instructions
 * Because this application will require the use of the Inquirer package, ensure that you install and use Inquirer version 8.2.4. To do so, use the following command in your folder: npm i inquirer@8.2.4
